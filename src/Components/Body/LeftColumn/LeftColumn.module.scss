@@ -1,0 +1,28 @@
+.LeftColumnContainer {
+  display: flex;
+  flex-direction: column;
+  color: #E4E5EA;
+  width: 362px;
+  height: 116px;
+
+  .TitleUp {
+    font-size: 48px;
+    text-align: left;
+
+    .WelbexTitle {
+      background: linear-gradient(92deg, #FCB045 27.14%, #FF3F78 121.36%), #E4E5EA;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 900;
+    }
+  }
+
+  .TitleDown {
+    text-align: left;
+    width: 275px;
+    height: 44px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #E4E5EA;
+  }
+}

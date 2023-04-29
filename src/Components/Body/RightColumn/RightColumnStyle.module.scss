@@ -1,0 +1,18 @@
+.RightColumnContainer {
+  display: flex;
+  flex-direction: column;
+
+  .RightColumnBody {
+    display: flex;
+    justify-content: space-between;
+    color: #E4E5EA;
+  }
+  .btn {
+    background: #4077F3;
+    color: #E4E5EA;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 35px 21px 34px 21px;
+    margin-top: 61px;
+  }
+}

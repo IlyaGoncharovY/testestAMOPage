@@ -1,0 +1,8 @@
+.ItemHeaderMenuContainer {
+  margin-left: 30px;
+  @media screen and (max-width: 520px) {
+    text-transform: uppercase;
+    font-size: 12px;
+    margin-left: 16px;
+  }
+}

@@ -1,0 +1,14 @@
+.FooterContainer {
+  display: flex;
+  justify-content: space-around;
+  color: #E4E5EA;
+  margin-top: 124px;
+
+  .FooterCompanyMenuContainer {
+    display: flex;
+    justify-content: space-around;
+    height: min-content;
+  }
+}
+
+

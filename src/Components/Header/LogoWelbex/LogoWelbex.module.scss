@@ -1,0 +1,32 @@
+.LogoContainer {
+  display: flex;
+  flex-direction: column;
+  color: rgba(228, 229, 234, 1);
+
+  @media screen and (max-width: 950px) {
+    display: none;
+  }
+
+  .LogoImgContainer {
+    display: flex;
+    align-items: center;
+
+    .Logo {
+      width: 35px;
+      height: 24px;
+    }
+
+    .LogoTitle {
+      width: 96px;
+      height: 14px;
+      margin-left: 20px;
+    }
+  }
+}
+
+
+
+
+
+
+

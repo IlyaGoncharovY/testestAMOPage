@@ -1,0 +1,26 @@
+.HeaderContainerStyle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 40px;
+
+  @media screen and (max-width: 520px) {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .LogoHeaderContainer {
+    display: flex;
+    justify-content: space-around;
+    height: min-content;
+
+    .LogoHeaderBody {
+      display: flex;
+      flex-direction: column;
+      @media screen and (max-width: 950px) {
+        display: none;
+      }
+    }
+  }
+}
+

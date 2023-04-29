@@ -1,0 +1,19 @@
+.FooterMenuContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 98px;
+
+  .FooterMenuTitle {
+    color: #656566;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .FooterMenuBodyContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+}

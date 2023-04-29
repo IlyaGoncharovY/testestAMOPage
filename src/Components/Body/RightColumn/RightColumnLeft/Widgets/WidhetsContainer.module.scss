@@ -1,0 +1,16 @@
+.WidgetsContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-top: 40px;
+
+  .WidgetsContainerTitle {
+    font-weight: 500;
+    font-size: 18px;
+  }
+
+  .WidgetsContainerBody {
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
