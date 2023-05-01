@@ -4,10 +4,38 @@
   color: #E4E5EA;
   margin-top: 124px;
 
+  @media screen and (max-width: 860px) {
+    display: flex;
+    justify-content: space-around;
+    color: #E4E5EA;
+    margin-top: 124px;
+    padding: 10px;
+  }
+
+  @media screen and (max-width: 660px) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #E4E5EA;
+    margin-top: 124px;
+  }
+
   .FooterCompanyMenuContainer {
     display: flex;
     justify-content: space-around;
     height: min-content;
+    @media screen and (max-width: 660px) {
+      display: flex;
+      justify-content: space-around;
+      height: min-content;
+      //align-items: center;
+    }
+
+    @media screen and (max-width: 660px) {
+      display: flex;
+      flex-direction: column;
+      height: min-content;
+    }
   }
 }
 

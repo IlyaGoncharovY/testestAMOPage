@@ -3,6 +3,12 @@
   flex-direction: column;
   text-align: right;
   margin-top: 40px;
+  @media screen and (max-width: 660px) {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 40px;
+  }
 
   .WidgetsContainerTitle {
     font-weight: 500;

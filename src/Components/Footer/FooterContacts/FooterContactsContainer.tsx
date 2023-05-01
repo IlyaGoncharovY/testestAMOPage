@@ -1,9 +1,9 @@
 import React from 'react';
 import {LogoContactData} from "../../../Common/DataSet/DataSet";
-import {ItemHeaderContact} from "../../Header/HeaderContacts/Item/ItemHeaderContact";
 import s from "./FooterContactsContainer.module.scss"
 import {TelNumber} from "../../Header/HeaderContacts/Number/TelNumber";
 import {PatentContainer} from "../Patent/PatentContainer";
+import {ItemFooterContacts} from "./Item/ItemFooterContacts";
 
 
 export const FooterContactsContainer = () => {
@@ -18,7 +18,7 @@ export const FooterContactsContainer = () => {
             <div className={s.FooterContactsBody}>
                 {LogoContactData.map((el, index) =>
                     <div key={index} >
-                        <ItemHeaderContact href={el.href} style={el.style}/>
+                        <ItemFooterContacts href={el.href} style={el.style}/>
                     </div>)}
             </div>
             <div className={s.FooterContactsAddress}>

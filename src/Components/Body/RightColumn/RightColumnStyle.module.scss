@@ -1,12 +1,35 @@
 .RightColumnContainer {
   display: flex;
   flex-direction: column;
+  @media screen and (max-width: 660px) {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 72px 0px 0px;
+  }
 
   .RightColumnBody {
     display: flex;
     justify-content: space-between;
     color: #E4E5EA;
+    @media screen and (max-width: 520px) {
+     display: none;
+    }
   }
+
+  .RightColumnAfterCommonContainer{
+    display: none;
+    @media screen and (max-width: 520px) {
+      display: flex;
+      justify-content: space-between;
+      color: #E4E5EA;
+      font-weight: 400;
+      font-size: 13px;
+      letter-spacing: 0.05em;
+      text-align: left;
+      margin-top: 20px;
+    }
+  }
+
   .btn {
     background: #4077F3;
     color: #E4E5EA;
@@ -14,5 +37,8 @@
     font-size: 16px;
     padding: 35px 21px 34px 21px;
     margin-top: 61px;
+    @media screen and (max-width: 520px) {
+      display: none;
+    }
   }
 }

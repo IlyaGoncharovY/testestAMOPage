@@ -1,0 +1,20 @@
+.TitleContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  .LineStyle {
+
+    ::after {
+      width: 10px;
+      height: 2px;
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 20px;
+      bottom: 0;
+      border-top: 1px solid #e7c824;
+    }
+
+  }
+}

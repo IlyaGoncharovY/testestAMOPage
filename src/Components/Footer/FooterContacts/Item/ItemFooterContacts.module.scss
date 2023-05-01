@@ -1,0 +1,9 @@
+.Img {
+  width: 16px;
+  height: 16px;
+  margin-left: 34px;
+  @media screen and (max-width: 520px) {
+    height: 16px;
+    margin-left: 5px;
+  }
+}
