@@ -1,3 +1,5 @@
+@import "src/Common/Assects/Style/SCSS/Variables";
+
 .FooterContainer {
   display: flex;
   justify-content: space-around;
@@ -18,6 +20,15 @@
     align-items: center;
     color: #E4E5EA;
     margin-top: 41px;
+  }
+
+  @media screen and (max-width: 520px) {
+    display: flex;
+    flex-direction: column;
+    //align-items: center;
+    //color: #E4E5EA;
+    margin-top: 41px;
+    background-color: black;
   }
 
   .FooterCompanyMenuContainer {
