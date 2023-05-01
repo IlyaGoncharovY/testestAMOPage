@@ -1,21 +1,23 @@
+@import "src/Common/Assects/Style/SCSS/Mixins";
+
 .AboutCompanyContainer {
   display: flex;
   flex-direction: column;
 
   .AboutCompanyTitle {
-    color: #656566;
-    font-weight: 700;
-    font-size: 14px;
+
     text-align: left;
+
+    @include textTitle("Inter", normal, 700, 14px, 17px);
   }
 
   .AboutCompanyBodyContainer {
     margin-top: 10px;
 
     .AboutCompanyBody {
-      font-weight: 400;
-      font-size: 16px;
+      @include text("Inter", normal, 400, 16px, 19px);
       text-align: left;
+
     }
   }
 

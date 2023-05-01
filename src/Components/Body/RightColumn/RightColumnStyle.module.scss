@@ -1,10 +1,12 @@
+@import "src/Common/Assects/Style/SCSS/Mixins";
+
 .RightColumnContainer {
   display: flex;
   flex-direction: column;
   @media screen and (max-width: 660px) {
     display: flex;
     flex-direction: column;
-    margin: 20px 72px 0px 0px;
+    margin: 20px 72px 0 0;
   }
 
   .RightColumnBody {
@@ -37,6 +39,8 @@
     font-size: 16px;
     padding: 35px 21px 34px 21px;
     margin-top: 61px;
+
+    @include text("Inter", normal, 500, 16px, 19px);
     @media screen and (max-width: 520px) {
       display: none;
     }

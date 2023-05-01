@@ -1,23 +1,25 @@
+@import "src/Common/Assects/Style/SCSS/Mixins";
+@import "src/Common/Assects/Style/SCSS/Variables";
+
 .LeftColumnContainer {
   display: flex;
   flex-direction: column;
-  color: #E4E5EA;
+  color: $textColor;
   width: 362px;
   height: min-content;
 
   @media screen and (max-width: 1024px) {
     display: flex;
     flex-direction: column;
-    color: #E4E5EA;
+    color: $textColor;
     width: min-content;
   }
 
   .TitleUp {
-    font-size: 48px;
+    @include text("Inter", normal, 400, 48px, 58px);
     text-align: left;
     @media screen and (max-width: 520px) {
-      font-weight: 400;
-      font-size: 36px;
+      @include text("Inter", normal, 400, 36px, 44px);
     }
 
 
@@ -41,5 +43,6 @@
     font-weight: 400;
     font-size: 18px;
     color: #E4E5EA;
+    @include text('Montserrat', normal, 400, 18px, 22px);
   }
 }

@@ -1,13 +1,15 @@
 import React from 'react';
 import s from "./RightColumnAfterContainerRight.module.scss"
+import {AfterRightColumn} from "../../../../../Common/DataSet/DataSet";
 
 
 export const RightColumAfterContainerRight = () => {
     return (
         <div className={s.TitleContainer}>
-            <div className={s.LineStyle}>30 ВИДЖЕТОВ</div>
-            {/*<div className={s.text_ed}>30 ВИДЖЕТОВ</div>*/}
-            <div className={s.LineStyle}>МЕСЯЦ AMOCRM</div>
+            {AfterRightColumn.map((el, index) =>
+                <div key={index} className={s.LineStyle}>
+                    {el.title}
+                </div>)}
         </div>
     );
 };

@@ -1,3 +1,5 @@
+@import "src/Common/Assects/Style/SCSS/Mixins";
+
 .FooterContactsContainer {
   display: flex;
   flex-direction: column;
@@ -12,19 +14,21 @@
     text-align: left;
     color: #E4E5EA;
     padding-right: 120px;
+    margin-top: 10px;
   }
 
 
   .FooterContactsTitle {
-    color: #656566;
-    font-weight: 700;
-    font-size: 14px;
+
+    @include textTitle("Inter", normal, 700, 14px, 17px);
   }
 
   .FooterContactsNumber {
     font-weight: 500;
     font-size: 16px;
     margin-top: 20px;
+
+    @include text("Inter", normal, 500, 16px, 19px)
   }
 
   .FooterContactsBody {
@@ -35,5 +39,7 @@
 
   .FooterContactsAddress {
     margin-top: 22px;
+
+    @include text("Inter", normal, 500, 16px, 19px)
   }
 }

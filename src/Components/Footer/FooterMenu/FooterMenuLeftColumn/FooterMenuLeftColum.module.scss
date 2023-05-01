@@ -1,6 +1,5 @@
 @import "src/Common/Assects/Style/SCSS/Mixins";
 
-.FooterMenuRightColumnContainer{
-  margin-left: 52px;
+.FooterLeftText {
   @include text("Inter", normal, 400, 16px, 19px);
 }

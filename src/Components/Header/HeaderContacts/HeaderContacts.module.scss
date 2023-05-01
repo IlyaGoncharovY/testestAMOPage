@@ -1,7 +1,11 @@
+@import "src/Common/Assects/Style/SCSS/Mixins";
+
 .HeaderContactsContainer {
   display: flex;
   align-items: center;
   color: #E4E5EA;
+
+  @include text("Inter", normal, 500, 16px, 19px);
 
   .TelNumberContainer {
     @media screen and (max-width: 655px) {

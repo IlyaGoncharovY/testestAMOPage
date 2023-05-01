@@ -1,13 +1,15 @@
+@import "src/Common/Assects/Style/SCSS/Mixins";
+
 .RightColumnTileContainer {
   width: 291px;
   height: 44px;
   text-align: right;
-  color: #E4E5EA;
+  @include text("Inter", normal, 500, 18px, 22px);
   @media screen and (max-width: 660px) {
     width: 291px;
     height: 44px;
     text-align: left;
-    color: #E4E5EA;
+    @include text("Inter", normal, 500, 18px, 22px);
   }
 
   .RightColumnTitleBody {

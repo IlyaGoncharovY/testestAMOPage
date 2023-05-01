@@ -1,0 +1,22 @@
+@import "src/Common/Assects/Style/SCSS/Mixins";
+
+.ItemRightContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  margin-top: 40px;
+  @media screen and (max-width: 660px) {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 40px;
+  }
+
+  .ItemRightTitleContainer {
+    @include text("Inter", normal, 500, 18px, 22px)
+  }
+
+  .ItemRightBodyContainer {
+    @include text("Inter", normal, 400, 16px, 20px)
+  }
+}

@@ -1,8 +1,10 @@
+@import "src/Common/Assects/Style/SCSS/Mixins";
+
 .LogoText {
   width: 165px;
   height: 24px;
-  font-size: 10px;
   text-align: left;
   margin-top: 4px;
-  color: #E4E5EA;
+
+  @include text("Montserrat", normal, 300, 10px, 12px)
 }

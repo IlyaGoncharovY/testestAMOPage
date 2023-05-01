@@ -1,10 +1,12 @@
 import React from 'react';
+import {AfterLeftColumn} from "../../../../../Common/DataSet/DataSet";
 
 export const RightColumAfterContainerLeft = () => {
     return (
         <div>
-            <div>SKYPE АУДИТ</div>
-            <div>DASHBOARD</div>
+            {AfterLeftColumn.map((el, index) => <div key={index}>
+                {el.title}
+            </div>)}
         </div>
     );
 };

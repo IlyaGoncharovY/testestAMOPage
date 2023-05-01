@@ -1,12 +1,12 @@
 import React from 'react';
-import './App.css';
 import {HeaderContainer} from "./Components/Header/HeaderContainer";
 import {BodyContainer} from "./Components/Body/BodyContainer";
 import {FooterContainer} from "./Components/Footer/FooterContainer";
+import s from "./App.module.scss"
 
 function App() {
   return (
-    <div className="App">
+    <div className={s.App}>
       <HeaderContainer/>
       <BodyContainer/>
       <FooterContainer/>

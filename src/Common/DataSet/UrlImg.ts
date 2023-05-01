@@ -4,6 +4,7 @@ import watsapp from "../Assects/Img/WatsApp.png"
 import logoWelbex from "../Assects/Img/WelbexLogo.png"
 import logoTitle from "../Assects/Img/WelbexTitle.png"
 import line from "../Assects/Img/Line 9.png"
+import noise from "../Assects/Img/noise.png"
 
 export const telegram1 = {
     backgroundImage: `url(${telegram})`
@@ -27,4 +28,8 @@ export const LogoTitle1 = {
 
 export const Line1 = {
     backgroundImage: `url(${line})`
+}
+
+export const Noise1 = {
+    backgroundImage:`url(${noise})`
 }

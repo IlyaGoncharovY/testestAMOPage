@@ -6,6 +6,18 @@
     display: flex;
     flex-direction: column;
     padding-left: 11px;
-    //align-items: center;
+  }
+  @media screen and (max-width: 320px) {
+    background-image: url(../../Common/Assects/Img/noise.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    padding-left: 11px;
   }
 }

@@ -1,0 +1,7 @@
+@import "Common/Assects/Style/SCSS/Variables.scss";
+
+.App {
+  text-align: center;
+  background-color: $bgColor;
+  min-height: 100vh;
+}

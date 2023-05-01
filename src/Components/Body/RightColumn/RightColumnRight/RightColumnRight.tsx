@@ -1,12 +1,16 @@
 import React from 'react';
-import {DashBoardContainer} from "./DashBoard/DashBoardContainer";
-import {ManyDaysContainer} from "./ManyDays/ManyDaysContainer";
+import {BodyRightColumnRightData} from "../../../../Common/DataSet/DataSet";
+import {ItemRightColumnRight} from "./ItemRightColumnRight/ItemRightColumnRight";
 
 export const RightColumnRight = () => {
     return (
         <div>
-            <DashBoardContainer/>
-            <ManyDaysContainer/>
+            {BodyRightColumnRightData.map((el, index)=>
+                <>
+                    <ItemRightColumnRight key={index} title={el.title} bodyUp={el.bodyUp} bodyDown={el.bodyDown}/>
+                </>
+            )}
+
         </div>
     );
 };
