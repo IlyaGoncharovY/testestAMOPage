@@ -1,0 +1,7 @@
+@import "src/Common/Assects/Style/SCSS/Mixins";
+
+.TitleAfterLeft {
+  margin-top: 5px;
+  letter-spacing: 0.05em;
+  @include text("Montserrat", normal, 400, 13px, 16px);
+}

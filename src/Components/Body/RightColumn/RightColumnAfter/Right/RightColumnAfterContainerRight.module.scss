@@ -1,19 +1,24 @@
+@import "src/Common/Assects/Style/SCSS/Mixins";
+
 .TitleContainer {
   display: flex;
   flex-direction: column;
   position: relative;
 
   .LineStyle {
+    position: relative;
+    margin-top: 5px;
+    letter-spacing: 0.05em;
+
+    @include text("Montserrat", normal, 400, 13px, 16px);
 
     ::after {
       width: 10px;
       height: 2px;
       content: "";
       position: absolute;
-      top: 0;
-      left: 20px;
-      bottom: 0;
-      border-top: 1px solid #e7c824;
+
+      border-image-source: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
     }
 
   }
