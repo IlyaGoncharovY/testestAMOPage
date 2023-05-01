@@ -8,9 +8,7 @@ export const RightColumAfterContainerRight = () => {
         <div className={s.TitleContainer}>
             {AfterRightColumn.map((el, index) =>
                 <div key={index} className={s.LineStyle}>
-                    <span>
-                        {el.title}
-                    </span>
+                    {el.title}
                 </div>)}
         </div>
     );

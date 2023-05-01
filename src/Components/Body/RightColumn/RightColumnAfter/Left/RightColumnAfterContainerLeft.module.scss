@@ -3,5 +3,11 @@
 .TitleAfterLeft {
   margin-top: 5px;
   letter-spacing: 0.05em;
+
+  &:before {
+    content: "-";
+    margin-right: 10px;
+    color: #FCB045FF;
+  };
   @include text("Montserrat", normal, 400, 13px, 16px);
 }

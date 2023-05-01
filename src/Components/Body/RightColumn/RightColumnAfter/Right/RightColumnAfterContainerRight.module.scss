@@ -12,14 +12,13 @@
 
     @include text("Montserrat", normal, 400, 13px, 16px);
 
-    ::after {
-      width: 10px;
-      height: 2px;
-      content: "";
-      position: absolute;
+    &:before {
+      content: "-";
+      margin-right: 10px;
+      color: #FCB045FF;
+    };
 
-      border-image-source: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
-    }
-
+    border-image-source: linear-gradient(90deg, #FCB045 36.99%, #FD1D1D 100%);
   }
+
 }
